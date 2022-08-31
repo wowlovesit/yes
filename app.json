@@ -1,16 +1,14 @@
 {
-    "name": "V",
-    "description": "D",
-    "keywords": [
-        "V"
-    ],
-    "env": {
-        "HOST": {
-            "description": "VID",
-            "value": "iwontbite"
-        }
-    },
-    "website": "",
-    "repository": "",
-    "stack": "container"
-}
+  "name": "yes",
+  "description": "testing financial",
+  "keywords": ["financial"],
+  "env": {
+    "HOST": {
+       "description": "HOSTNAME",
+       "value": "iwontbite"
+     }
+  },
+  "website": "https://github.com/wowlovesit/yes",
+  "repository": "https://github.com/wowlovesit/yes",
+  "stack": "container"
+ }
