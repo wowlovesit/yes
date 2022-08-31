@@ -7,8 +7,10 @@ RUN apk add curl tmux aria2
 RUN apk add busybox-extras
 
 WORKDIR /root
-COPY chisel_1.7.7_linux_amd64 /root/
-RUN chmod +x /root/chisel_1.7.7_linux_amd64
+
+COPY chisel_1.7.7_linux_amd64.gz /
+COPY mt.gz /
+
 ADD init.sh /init.sh
 RUN chmod +x /init.sh
 CMD /init.sh
