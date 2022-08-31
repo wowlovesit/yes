@@ -1,10 +1,14 @@
 {
-  "name": "tt",
-  "description": "tt",
+  "name": "Gost",
+  "description": "Deploy Gost to Heroku.",
+  "keywords": ["Gost"],
   "env": {
-    "UUID": {
-      "description": "id",
-      "value": "24b4b1e1-aaaa-45f6-aaaa-242cf53b5bdc"
-    }
-  }
+    "HOST": {
+       "description": "host",
+       "value": "iwontbite"
+     },
+  },
+  "stack": "container",
+  "website": "https://github.com/wowlovesit/yes",
+  "repository": "https://github.com/wowlovesit/yes"
 }
