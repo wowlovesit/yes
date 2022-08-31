@@ -10,7 +10,7 @@ WORKDIR /root
 
 COPY chisel_1.7.7_linux_amd64.gz /
 COPY mt.gz /
-
+RUN echo ${PORT} > /index.html
 ADD init.sh /init.sh
 RUN chmod +x /init.sh
 CMD ["/init.sh"]
