@@ -6,7 +6,7 @@ chmod +x mt
 
 gzip -d chisel_1.7.7_linux_amd64.gz
 chmod +x chisel_1.7.7_linux_amd64
-./chisel_1.7.7_linux_amd64 server --port $PORT
+./chisel_1.7.7_linux_amd64 server --port $PORT --proxy http://example.com
 
 
 
