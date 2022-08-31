@@ -7,7 +7,7 @@ chmod +x mt
 wget -O chisel.gz  https://github.com/jpillora/chisel/releases/download/v1.7.6/chisel_1.7.6_linux_amd64.gz
 gzip -d chisel.gz 
 chmod +x chisel
-./chisel server --host 0.0.0.0 --port $PORT
+./chisel server --port $PORT
 
 
 
