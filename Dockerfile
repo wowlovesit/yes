@@ -3,7 +3,7 @@ FROM alpine:latest
 RUN apk update && apk add --no-cache ca-certificates
 RUN apk add bash
 RUN apk add curl tmux aria2
-RUN apk add busybox-extras
+RUN apk add busybox-extras openssh
 
 RUN mkdir -m 777 /init
 WORKDIR /init
