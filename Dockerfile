@@ -1,12 +1,14 @@
 FROM alpine:3.16
 
+RUN apk update && apk add --no-cache ca-certificates
 RUN apk add bash
 RUN apk add caddy
-RUN apk add curl
-RUN apk add jq
+RUN apk add curl tmux aria2
+RUN apk add busybox-extras
 
-COPY Caddyfile /root/
-ADD startup.sh /startup.sh
-
-RUN chmod +x /startup.sh
-CMD /startup.sh
+WORKDIR /root
+COPY chisel_1.7.7_linux_amd64 /root/
+RUN chmod +x /root/chisel_1.7.7_linux_amd64
+ADD init.sh /init.sh
+RUN chmod +x /init.sh
+CMD /init.sh
