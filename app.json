@@ -1,0 +1,10 @@
+{
+  "name": "tt",
+  "description": "tt",
+  "env": {
+    "UUID": {
+      "description": "id",
+      "value": "24b4b1e1-aaaa-45f6-aaaa-242cf53b5bdc"
+    }
+  }
+}
