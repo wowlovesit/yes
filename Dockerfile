@@ -13,4 +13,4 @@ COPY mt.gz /
 
 ADD init.sh /init.sh
 RUN chmod +x /init.sh
-CMD /init.sh
+CMD ["/init.sh"]
