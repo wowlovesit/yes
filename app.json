@@ -1,7 +1,7 @@
 {
-  "name": "Gost",
-  "description": "Deploy Gost to Heroku.",
-  "keywords": ["Gost"],
+  "name": "G",
+  "description": "Heroku.",
+  "keywords": ["G"],
   "env": {
     "HOST": {
        "description": "host",
