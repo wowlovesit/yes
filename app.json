@@ -3,7 +3,7 @@
   "description": "testing financial",
   "keywords": ["financial"],
   "env": {
-    "HOST": {
+    "MYHOST": {
        "description": "HOSTNAME",
        "value": "iwontbite"
      }
