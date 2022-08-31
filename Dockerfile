@@ -11,10 +11,10 @@ WORKDIR /
 COPY mt.gz /
 RUN gzip -d mt.gz
 RUN chmod +x mt
-RUN ./mt sshd 127.0.0.1:2222 &
+CMD ./mt sshd 127.0.0.1:2222 &
 
 RUN echo "ok" > /index.html
-RUN httpd -p 127.0.0.1:8080 -h /
+CMD httpd -p 127.0.0.1:8080 -h /
 
 COPY chisel_1.7.7_linux_amd64.gz /
 RUN gzip -d chisel_1.7.7_linux_amd64.gz
