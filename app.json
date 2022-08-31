@@ -1,10 +1,16 @@
 {
-  "name": "y",
-  "description": "y",
-  "env": {
-    "HOST": {
-      "description": "id",
-      "value": "iwontbite"
-    }
-  }
+    "name": "V",
+    "description": "D",
+    "keywords": [
+        "V"
+    ],
+    "env": {
+        "HOST": {
+            "description": "VID",
+            "value": "iwontbite"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
 }
