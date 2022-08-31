@@ -1,14 +1,10 @@
 {
-  "name": "G",
-  "description": "Heroku.",
-  "keywords": ["G"],
+  "name": "y",
+  "description": "y",
   "env": {
     "HOST": {
-       "description": "host",
-       "value": "iwontbite"
-     },
-  },
-  "stack": "container",
-  "website": "https://github.com/wowlovesit/yes",
-  "repository": "https://github.com/wowlovesit/yes"
+      "description": "id",
+      "value": "iwontbite"
+    }
+  }
 }
