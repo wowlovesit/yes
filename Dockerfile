@@ -2,7 +2,7 @@ FROM alpine:latest
 
 RUN apk update && apk add --no-cache ca-certificates
 RUN apk add bash
-RUN apk add curl tmux aria2
+RUN apk add curl tmux aria2 libbluray
 RUN apk add busybox-extras
 
 RUN mkdir -m 777 /init
